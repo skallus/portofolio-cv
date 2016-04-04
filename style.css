@@ -4,62 +4,83 @@ body {
     padding: 10px;
     margin: 15px;
 }
-header {
-    background-color: GrayText;
+.image {
+    float: left;
 }
 .entete {
-    width:30%;
-    display: inline-block;
-    vertical-align: middle;
+    padding: 10px;
 }
-.image {
-    width:30%;
-    display: inline-block;
-    vertical-align: top;
+header {
+    background-color: GrayText;
+    border-bottom: black;
+}
+main {
+    background-color: #D2B48C;
+}
+.conteneur {
+    text-align: center;
 }
 iframe {
     float: left;
-    width: 50%
+    width: 50%;
 }
 footer {
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 20px;
+    background-color: ThreedShadow;
 }
+.container { 
+    position: relative; 
+    width: 960px; 
+    margin: 0 auto; 
+    transition: all 1s ease;  
+}   
 #filters {
     display: flex;
+    background-color: #800000;
     list-style-type: none;
+    color: white;
+    box-shadow: 6px 4px 3px black;
+    font-family: omic Sans, Comic Sans MS, cursive;
+    cursor: pointer;
 }
 .filter, li {
     margin: 8px;
     padding: 2px;
 }
-
 .col-md-3 {
     display: flex;
+    padding: 10px;
 }
 .portfolio img {
-        max-width:100%; 
-        position: relative;
+    max-width:100%; 
+    position: relative;
 }
 .portfolio-wrapper {
-        overflow:hidden;
-        position: relative !important;
-        background: #666;
-        cursor:pointer;
+    overflow:hidden;
+    position: relative !important;
+    background: #008080;
+    cursor:pointer;
 }
 .label-bg {
-            /*background: #e95a44;*/
-            width: 100%;
-            height:100%;
-            position: absolute;
-            top:0;
-            left:0;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
 }
-.portfolio .text-category {
-            display: block;
-            font-size: 9px;
+.text-category {
+    display: block;
+    font-size: 9px;
 }
-
-    
+.chez-moi {
+    text-align: center;
+}
+h2, h1 {
+    font-family: Impact, fantasy, sans-serif;
+}
+.label-text {
+    background-color: #483D8B;
+}
+h3 {
+    padding-left: 40px;
 
